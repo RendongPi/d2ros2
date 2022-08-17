@@ -1,0 +1,24 @@
+[2.421s] Invoking command in '/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/src/example_service_rclpy': PYTHONPATH=/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/example_service_rclpy build --build-base /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_service_rclpy/build install --prefix /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_service_rclpy --record /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_service_rclpy/install.log --single-version-externally-managed
+[2.983s] running egg_info
+[2.983s] writing ../../build/example_service_rclpy/example_service_rclpy.egg-info/PKG-INFO
+[2.985s] writing dependency_links to ../../build/example_service_rclpy/example_service_rclpy.egg-info/dependency_links.txt
+[2.986s] writing entry points to ../../build/example_service_rclpy/example_service_rclpy.egg-info/entry_points.txt
+[2.993s] writing requirements to ../../build/example_service_rclpy/example_service_rclpy.egg-info/requires.txt
+[2.993s] writing top-level names to ../../build/example_service_rclpy/example_service_rclpy.egg-info/top_level.txt
+[2.998s] reading manifest file '../../build/example_service_rclpy/example_service_rclpy.egg-info/SOURCES.txt'
+[3.002s] writing manifest file '../../build/example_service_rclpy/example_service_rclpy.egg-info/SOURCES.txt'
+[3.003s] running build
+[3.003s] running build_py
+[3.004s] running install
+[3.004s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.004s]   warnings.warn(
+[3.005s] running install_lib
+[3.008s] running install_data
+[3.008s] running install_egg_info
+[3.010s] removing '/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages/example_service_rclpy-0.0.0-py3.10.egg-info' (and everything under it)
+[3.013s] Copying ../../build/example_service_rclpy/example_service_rclpy.egg-info to /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages/example_service_rclpy-0.0.0-py3.10.egg-info
+[3.015s] running install_scripts
+[3.076s] Installing service_client_02 script to /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/example_service_rclpy
+[3.076s] Installing service_server_02 script to /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/example_service_rclpy
+[3.076s] writing list of installed files to '/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_service_rclpy/install.log'
+[3.314s] Invoked command in '/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/src/example_service_rclpy' returned '0': PYTHONPATH=/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/example_service_rclpy build --build-base /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_service_rclpy/build install --prefix /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_service_rclpy --record /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_service_rclpy/install.log --single-version-externally-managed

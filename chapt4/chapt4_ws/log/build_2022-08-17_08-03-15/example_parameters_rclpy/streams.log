@@ -1,0 +1,39 @@
+[0.827s] Invoking command in '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/src/example_parameters_rclpy': PYTHONPATH=/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/example_parameters_rclpy build --build-base /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/build install --prefix /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy --record /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/install.log --single-version-externally-managed
+[1.096s] running egg_info
+[1.097s] creating ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info
+[1.098s] writing ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/PKG-INFO
+[1.099s] writing dependency_links to ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/dependency_links.txt
+[1.099s] writing entry points to ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/entry_points.txt
+[1.100s] writing requirements to ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/requires.txt
+[1.100s] writing top-level names to ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/top_level.txt
+[1.101s] writing manifest file '../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/SOURCES.txt'
+[1.103s] reading manifest file '../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/SOURCES.txt'
+[1.104s] writing manifest file '../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/SOURCES.txt'
+[1.105s] running build
+[1.105s] running build_py
+[1.106s] creating /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/build
+[1.106s] creating /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/build/lib
+[1.107s] creating /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/build/lib/example_parameters_rclpy
+[1.107s] copying example_parameters_rclpy/parameters_basic.py -> /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/build/lib/example_parameters_rclpy
+[1.108s] copying example_parameters_rclpy/__init__.py -> /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/build/lib/example_parameters_rclpy
+[1.109s] running install
+[1.110s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.110s]   warnings.warn(
+[1.110s] running install_lib
+[1.112s] creating /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/lib/python3.10/site-packages/example_parameters_rclpy
+[1.113s] copying /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/build/lib/example_parameters_rclpy/parameters_basic.py -> /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/lib/python3.10/site-packages/example_parameters_rclpy
+[1.113s] copying /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/build/lib/example_parameters_rclpy/__init__.py -> /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/lib/python3.10/site-packages/example_parameters_rclpy
+[1.114s] byte-compiling /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/lib/python3.10/site-packages/example_parameters_rclpy/parameters_basic.py to parameters_basic.cpython-310.pyc
+[1.119s] byte-compiling /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/lib/python3.10/site-packages/example_parameters_rclpy/__init__.py to __init__.cpython-310.pyc
+[1.119s] running install_data
+[1.122s] creating /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/share/ament_index
+[1.122s] creating /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/share/ament_index/resource_index
+[1.123s] creating /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/share/ament_index/resource_index/packages
+[1.123s] copying resource/example_parameters_rclpy -> /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/share/ament_index/resource_index/packages
+[1.124s] copying package.xml -> /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/share/example_parameters_rclpy
+[1.124s] running install_egg_info
+[1.126s] Copying ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info to /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/lib/python3.10/site-packages/example_parameters_rclpy-0.0.0-py3.10.egg-info
+[1.128s] running install_scripts
+[1.163s] Installing parameters_basic script to /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/lib/example_parameters_rclpy
+[1.165s] writing list of installed files to '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/install.log'
+[1.201s] Invoked command in '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/src/example_parameters_rclpy' returned '0': PYTHONPATH=/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/example_parameters_rclpy build --build-base /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/build install --prefix /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy --record /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/install.log --single-version-externally-managed

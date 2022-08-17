@@ -1,0 +1,26 @@
+[0.799s] Invoking command in '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/src/example_parameters_rclpy': PYTHONPATH=/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/example_parameters_rclpy build --build-base /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/build install --prefix /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy --record /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/install.log --single-version-externally-managed
+[1.089s] running egg_info
+[1.091s] writing ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/PKG-INFO
+[1.093s] writing dependency_links to ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/dependency_links.txt
+[1.097s] writing entry points to ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/entry_points.txt
+[1.097s] writing requirements to ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/requires.txt
+[1.097s] writing top-level names to ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/top_level.txt
+[1.099s] reading manifest file '../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/SOURCES.txt'
+[1.101s] writing manifest file '../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info/SOURCES.txt'
+[1.102s] running build
+[1.102s] running build_py
+[1.103s] copying example_parameters_rclpy/parameters_basic.py -> /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/build/lib/example_parameters_rclpy
+[1.104s] running install
+[1.105s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.105s]   warnings.warn(
+[1.106s] running install_lib
+[1.107s] copying /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/build/lib/example_parameters_rclpy/parameters_basic.py -> /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/lib/python3.10/site-packages/example_parameters_rclpy
+[1.108s] byte-compiling /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/lib/python3.10/site-packages/example_parameters_rclpy/parameters_basic.py to parameters_basic.cpython-310.pyc
+[1.110s] running install_data
+[1.111s] running install_egg_info
+[1.113s] removing '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/lib/python3.10/site-packages/example_parameters_rclpy-0.0.0-py3.10.egg-info' (and everything under it)
+[1.114s] Copying ../../build/example_parameters_rclpy/example_parameters_rclpy.egg-info to /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/lib/python3.10/site-packages/example_parameters_rclpy-0.0.0-py3.10.egg-info
+[1.115s] running install_scripts
+[1.141s] Installing parameters_basic script to /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/lib/example_parameters_rclpy
+[1.143s] writing list of installed files to '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/install.log'
+[1.194s] Invoked command in '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/src/example_parameters_rclpy' returned '0': PYTHONPATH=/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/example_parameters_rclpy build --build-base /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/build install --prefix /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_parameters_rclpy --record /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/example_parameters_rclpy/install.log --single-version-externally-managed

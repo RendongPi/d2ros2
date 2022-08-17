@@ -1,0 +1,3 @@
+/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_ros2_interfaces/rosidl_adapter/example_ros2_interfaces:msg/RobotPose.idl
+/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_ros2_interfaces/rosidl_adapter/example_ros2_interfaces:msg/RobotStatus.idl
+/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_ros2_interfaces/rosidl_adapter/example_ros2_interfaces:srv/MoveRobot.idl

@@ -1,0 +1,43 @@
+[1.867s] Invoking command in '/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/src/example_interfaces_rclpy': AMENT_PREFIX_PATH=/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_ros2_interfaces LD_LIBRARY_PATH=/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy/lib/python3.10/site-packages:/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/example_interfaces_rclpy build --build-base /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_interfaces_rclpy/build install --prefix /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy --record /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_interfaces_rclpy/install.log --single-version-externally-managed
+[2.118s] running egg_info
+[2.119s] creating ../../build/example_interfaces_rclpy/example_interfaces_rclpy.egg-info
+[2.120s] writing ../../build/example_interfaces_rclpy/example_interfaces_rclpy.egg-info/PKG-INFO
+[2.121s] writing dependency_links to ../../build/example_interfaces_rclpy/example_interfaces_rclpy.egg-info/dependency_links.txt
+[2.121s] writing entry points to ../../build/example_interfaces_rclpy/example_interfaces_rclpy.egg-info/entry_points.txt
+[2.121s] writing requirements to ../../build/example_interfaces_rclpy/example_interfaces_rclpy.egg-info/requires.txt
+[2.122s] writing top-level names to ../../build/example_interfaces_rclpy/example_interfaces_rclpy.egg-info/top_level.txt
+[2.125s] writing manifest file '../../build/example_interfaces_rclpy/example_interfaces_rclpy.egg-info/SOURCES.txt'
+[2.126s] reading manifest file '../../build/example_interfaces_rclpy/example_interfaces_rclpy.egg-info/SOURCES.txt'
+[2.130s] writing manifest file '../../build/example_interfaces_rclpy/example_interfaces_rclpy.egg-info/SOURCES.txt'
+[2.130s] running build
+[2.130s] running build_py
+[2.130s] creating /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_interfaces_rclpy/build
+[2.130s] creating /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_interfaces_rclpy/build/lib
+[2.130s] creating /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_interfaces_rclpy/build/lib/example_interfaces_rclpy
+[2.130s] copying example_interfaces_rclpy/__init__.py -> /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_interfaces_rclpy/build/lib/example_interfaces_rclpy
+[2.131s] copying example_interfaces_rclpy/example_interfaces_robot_02.py -> /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_interfaces_rclpy/build/lib/example_interfaces_rclpy
+[2.131s] copying example_interfaces_rclpy/example_interfaces_control_02.py -> /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_interfaces_rclpy/build/lib/example_interfaces_rclpy
+[2.134s] running install
+[2.134s] running install_lib
+[2.134s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.134s]   warnings.warn(
+[2.135s] creating /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy/lib/python3.10/site-packages/example_interfaces_rclpy
+[2.135s] copying /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_interfaces_rclpy/build/lib/example_interfaces_rclpy/__init__.py -> /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy/lib/python3.10/site-packages/example_interfaces_rclpy
+[2.136s] copying /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_interfaces_rclpy/build/lib/example_interfaces_rclpy/example_interfaces_robot_02.py -> /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy/lib/python3.10/site-packages/example_interfaces_rclpy
+[2.136s] copying /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_interfaces_rclpy/build/lib/example_interfaces_rclpy/example_interfaces_control_02.py -> /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy/lib/python3.10/site-packages/example_interfaces_rclpy
+[2.137s] byte-compiling /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy/lib/python3.10/site-packages/example_interfaces_rclpy/__init__.py to __init__.cpython-310.pyc
+[2.138s] byte-compiling /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy/lib/python3.10/site-packages/example_interfaces_rclpy/example_interfaces_robot_02.py to example_interfaces_robot_02.cpython-310.pyc
+[2.144s] byte-compiling /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy/lib/python3.10/site-packages/example_interfaces_rclpy/example_interfaces_control_02.py to example_interfaces_control_02.cpython-310.pyc
+[2.144s] running install_data
+[2.144s] creating /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy/share/ament_index
+[2.144s] creating /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy/share/ament_index/resource_index
+[2.145s] creating /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy/share/ament_index/resource_index/packages
+[2.145s] copying resource/example_interfaces_rclpy -> /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy/share/ament_index/resource_index/packages
+[2.145s] copying package.xml -> /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy/share/example_interfaces_rclpy
+[2.145s] running install_egg_info
+[2.151s] Copying ../../build/example_interfaces_rclpy/example_interfaces_rclpy.egg-info to /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy/lib/python3.10/site-packages/example_interfaces_rclpy-0.0.0-py3.10.egg-info
+[2.151s] running install_scripts
+[2.183s] Installing example_interfaces_control_02 script to /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy/lib/example_interfaces_rclpy
+[2.184s] Installing example_interfaces_robot_02 script to /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy/lib/example_interfaces_rclpy
+[2.186s] writing list of installed files to '/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_interfaces_rclpy/install.log'
+[2.231s] Invoked command in '/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/src/example_interfaces_rclpy' returned '0': AMENT_PREFIX_PATH=/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_ros2_interfaces LD_LIBRARY_PATH=/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy/lib/python3.10/site-packages:/home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/example_interfaces_rclpy build --build-base /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_interfaces_rclpy/build install --prefix /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/install/example_interfaces_rclpy --record /home/rdpi/Documents/TieDan/d2ros2/chapt3/chapt3_ws/build/example_interfaces_rclpy/install.log --single-version-externally-managed
