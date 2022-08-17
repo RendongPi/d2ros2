@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_control_interfaces",
+  "non_idl_tuples": [
+    "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/src/robot_control_interfaces:action/MoveRobot.action"
+  ]
+}

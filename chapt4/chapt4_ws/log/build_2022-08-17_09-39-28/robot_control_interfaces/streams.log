@@ -1,0 +1,229 @@
+[0.038s] Invoking command in '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces': CMAKE_PREFIX_PATH=/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy:/opt/ros/humble /usr/bin/cmake /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/src/robot_control_interfaces -DCMAKE_INSTALL_PREFIX=/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces
+[0.317s] -- The C compiler identification is GNU 11.2.0
+[0.547s] -- The CXX compiler identification is GNU 11.2.0
+[0.568s] -- Detecting C compiler ABI info
+[0.683s] -- Detecting C compiler ABI info - done
+[0.690s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.691s] -- Detecting C compile features
+[0.693s] -- Detecting C compile features - done
+[0.699s] -- Detecting CXX compiler ABI info
+[1.036s] -- Detecting CXX compiler ABI info - done
+[1.060s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.060s] -- Detecting CXX compile features
+[1.062s] -- Detecting CXX compile features - done
+[1.085s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.740s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter 
+[2.150s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.168s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.184s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.374s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.790s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.237s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.627s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.671s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.4", minimum required is "3.6") 
+[4.679s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.722s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.4", minimum required is "3.5") 
+[4.723s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.723s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.723s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.752s] -- Found PythonExtra: .so  
+[4.818s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.938s] -- Added test 'lint_cmake' to check CMake code style
+[4.941s] -- Added test 'xmllint' to check XML markup files
+[4.957s] -- Configuring done
+[5.033s] -- Generating done
+[5.040s] -- Build files have been written to: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces
+[5.070s] Invoked command in '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy:/opt/ros/humble /usr/bin/cmake /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/src/robot_control_interfaces -DCMAKE_INSTALL_PREFIX=/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces
+[5.080s] Invoking command in '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces': CMAKE_PREFIX_PATH=/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy:/opt/ros/humble /usr/bin/cmake --build /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces -- -j2 -l2
+[5.303s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.342s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.698s] [  6%] Built target robot_control_interfaces__cpp
+[6.824s] [  6%] Built target ament_cmake_python_copy_robot_control_interfaces
+[6.840s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.082s] [ 12%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_control_interfaces/action/detail/move_robot__functions.c.o[0m
+[7.576s] [ 16%] [32m[1mLinking C shared library librobot_control_interfaces__rosidl_generator_c.so[0m
+[7.736s] [ 19%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_control_interfaces/action/move_robot__type_support.cpp.o[0m
+[7.751s] [ 19%] Built target robot_control_interfaces__rosidl_generator_c
+[7.797s] [ 22%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.730s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_control_interfaces/action/detail/dds_fastrtps/move_robot__type_support.cpp.o[0m
+[9.112s] [ 29%] [32m[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_cpp.so[0m
+[9.209s] [ 29%] Built target robot_control_interfaces__rosidl_typesupport_cpp
+[9.232s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.224s] [ 35%] [32m[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.498s] [ 35%] Built target robot_control_interfaces__rosidl_typesupport_fastrtps_cpp
+[10.613s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_control_interfaces/action/detail/move_robot__type_support.cpp.o[0m
+[11.246s] running egg_info
+[11.252s] creating robot_control_interfaces.egg-info
+[11.253s] writing robot_control_interfaces.egg-info/PKG-INFO
+[11.260s] writing dependency_links to robot_control_interfaces.egg-info/dependency_links.txt
+[11.262s] writing top-level names to robot_control_interfaces.egg-info/top_level.txt
+[11.263s] writing manifest file 'robot_control_interfaces.egg-info/SOURCES.txt'
+[11.282s] reading manifest file 'robot_control_interfaces.egg-info/SOURCES.txt'
+[11.284s] writing manifest file 'robot_control_interfaces.egg-info/SOURCES.txt'
+[11.498s] [ 38%] Built target ament_cmake_python_build_robot_control_interfaces_egg
+[11.565s] [ 41%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.354s] [ 45%] [32m[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[12.594s] [ 45%] Built target robot_control_interfaces__rosidl_typesupport_introspection_cpp
+[12.610s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.625s] [ 51%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_control_interfaces/action/detail/move_robot__type_support_c.cpp.o[0m
+[13.350s] [ 54%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_control_interfaces/action/detail/move_robot__type_support.c.o[0m
+[13.470s] [ 58%] [32m[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[13.480s] [ 61%] [32m[1mLinking C shared library librobot_control_interfaces__rosidl_typesupport_introspection_c.so[0m
+[13.550s] [ 61%] Built target robot_control_interfaces__rosidl_typesupport_introspection_c
+[13.569s] [ 64%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.740s] [ 64%] Built target robot_control_interfaces__rosidl_typesupport_fastrtps_c
+[14.280s] [ 67%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_control_interfaces/action/move_robot__type_support.cpp.o[0m
+[14.428s] [ 70%] [32m[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_c.so[0m
+[14.578s] [ 70%] Built target robot_control_interfaces__rosidl_typesupport_c
+[14.677s] [ 70%] Built target robot_control_interfaces
+[14.741s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.919s] [ 74%] Built target robot_control_interfaces__py
+[15.958s] [ 77%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_control_interfaces/action/_move_robot_s.c.o[0m
+[16.262s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/robot_control_interfaces/librobot_control_interfaces__rosidl_generator_py.so[0m
+[16.329s] [ 80%] Built target robot_control_interfaces__rosidl_generator_py
+[16.369s] [ 83%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.372s] [ 87%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.680s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.748s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.789s] [ 93%] Built target robot_control_interfaces__rosidl_typesupport_introspection_c__pyext
+[16.880s] [ 93%] Built target robot_control_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[16.892s] [ 96%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[17.191s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.354s] [100%] Built target robot_control_interfaces__rosidl_typesupport_c__pyext
+[17.393s] Invoked command in '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy:/opt/ros/humble /usr/bin/cmake --build /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces -- -j2 -l2
+[17.619s] Invoking command in '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces': CMAKE_PREFIX_PATH=/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy:/opt/ros/humble /usr/bin/cmake --install /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces
+[17.649s] -- Install configuration: ""
+[17.651s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_control_interfaces
+[17.652s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces
+[17.653s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg
+[17.655s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/rosidl_generator_c__visibility_control.h
+[17.656s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action
+[17.656s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/move_robot.h
+[17.662s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail
+[17.662s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__type_support.h
+[17.662s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__functions.h
+[17.662s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__struct.h
+[17.663s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__functions.c
+[17.663s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/library_path.sh
+[17.664s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/library_path.dsv
+[17.666s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_generator_c.so
+[17.668s] -- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_generator_c.so" to ""
+[17.668s] -- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces
+[17.669s] -- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg
+[17.669s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.670s] -- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action
+[17.670s] -- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail
+[17.671s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__rosidl_typesupport_fastrtps_c.h
+[17.672s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_fastrtps_c.so
+[17.674s] -- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[17.674s] -- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces
+[17.675s] -- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg
+[17.675s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.676s] -- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action
+[17.676s] -- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail
+[17.677s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__type_support.c
+[17.678s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__rosidl_typesupport_introspection_c.h
+[17.679s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_introspection_c.so
+[17.681s] -- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[17.681s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_c.so
+[17.683s] -- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_c.so" to ""
+[17.683s] -- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces
+[17.684s] -- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action
+[17.684s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/move_robot.hpp
+[17.685s] -- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail
+[17.685s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__builder.hpp
+[17.686s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__traits.hpp
+[17.688s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__struct.hpp
+[17.689s] -- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces
+[17.689s] -- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg
+[17.690s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.691s] -- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action
+[17.691s] -- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail
+[17.691s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/dds_fastrtps
+[17.692s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[17.693s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[17.695s] -- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[17.695s] -- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces
+[17.695s] -- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action
+[17.696s] -- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail
+[17.696s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__rosidl_typesupport_introspection_cpp.hpp
+[17.697s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__type_support.cpp
+[17.699s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_introspection_cpp.so
+[17.701s] -- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[17.701s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_cpp.so
+[17.703s] -- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_cpp.so" to ""
+[17.703s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/pythonpath.sh
+[17.704s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/pythonpath.dsv
+[17.705s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info
+[17.709s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[17.711s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[17.711s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[17.712s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[17.714s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces
+[17.715s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/librobot_control_interfaces__rosidl_generator_py.so
+[17.716s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[17.719s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_c.c
+[17.720s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.728s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.728s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/__init__.py
+[17.728s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[17.730s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action
+[17.730s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action/_move_robot_s.c
+[17.731s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action/__init__.py
+[17.734s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action/_move_robot.py
+[17.736s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[17.893s] Listing '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces'...
+[17.893s] Compiling '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/__init__.py'...
+[17.893s] Listing '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action'...
+[17.893s] Compiling '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action/__init__.py'...
+[17.893s] Compiling '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action/_move_robot.py'...
+[17.910s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[17.910s] -- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[17.911s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.915s] -- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[17.917s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.921s] -- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[17.923s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_generator_py.so
+[17.925s] -- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_generator_py.so" to ""
+[17.926s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/action/MoveRobot.idl
+[17.927s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/action/MoveRobot.action
+[17.932s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_control_interfaces
+[17.933s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_control_interfaces
+[17.934s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/ament_prefix_path.sh
+[17.934s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/ament_prefix_path.dsv
+[17.935s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/path.sh
+[17.936s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/path.dsv
+[17.937s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/local_setup.bash
+[17.938s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/local_setup.sh
+[17.939s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/local_setup.zsh
+[17.940s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/local_setup.dsv
+[17.941s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/package.dsv
+[17.942s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/ament_index/resource_index/packages/robot_control_interfaces
+[17.943s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_cExport.cmake
+[17.943s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_cExport-noconfig.cmake
+[17.947s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[17.948s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[17.950s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[17.951s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.952s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_cExport.cmake
+[17.953s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[17.954s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_cppExport.cmake
+[17.958s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[17.965s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[17.968s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[17.970s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.972s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_cppExport.cmake
+[17.974s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[17.976s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_pyExport.cmake
+[17.978s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[17.979s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/rosidl_cmake-extras.cmake
+[17.980s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.982s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.983s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[17.984s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[17.986s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.988s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.990s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfacesConfig.cmake
+[17.991s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfacesConfig-version.cmake
+[17.992s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/package.xml
+[17.997s] Invoked command in '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy:/opt/ros/humble /usr/bin/cmake --install /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces

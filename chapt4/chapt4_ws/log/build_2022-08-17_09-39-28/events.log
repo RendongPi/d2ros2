@@ -1,0 +1,420 @@
+[0.000000] (-) TimerEvent: {}
+[0.001945] (-) JobUnselected: {'identifier': 'example_action_rclpy'}
+[0.002377] (-) JobUnselected: {'identifier': 'example_parameters_rclpy'}
+[0.002406] (robot_control_interfaces) JobQueued: {'identifier': 'robot_control_interfaces', 'dependencies': OrderedDict()}
+[0.002441] (robot_control_interfaces) JobStarted: {'identifier': 'robot_control_interfaces'}
+[0.039893] (robot_control_interfaces) JobProgress: {'identifier': 'robot_control_interfaces', 'progress': 'cmake'}
+[0.040108] (robot_control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/src/robot_control_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces'], 'cwd': '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces', 'env': OrderedDict([('HOSTNAME', '525dd0c721b0'), ('GIT_ASKPASS', '/root/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/rdpi/Documents/TieDan/d2ros2/chapt4'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-93bbac1e-fdef-4ae4-96dd-f07efbcbf593.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-1c18d0e240246833a57bbd1b7d65f9e9412d75fb.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/scripts/bin/'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-1c18d0e240246833a57bbd1b7d65f9e9412d75fb.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', 'unix:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-2d0278864f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-1c18d0e240246833a57bbd1b7d65f9e9412d75fb.sock'), ('AMENT_PREFIX_PATH', '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy:/opt/ros/humble')]), 'shell': False}
+[0.098381] (-) TimerEvent: {}
+[0.199164] (-) TimerEvent: {}
+[0.300447] (-) TimerEvent: {}
+[0.318897] (robot_control_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.401270] (-) TimerEvent: {}
+[0.502114] (-) TimerEvent: {}
+[0.549665] (robot_control_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.570005] (robot_control_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.602699] (-) TimerEvent: {}
+[0.684875] (robot_control_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.692235] (robot_control_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.693534] (robot_control_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.695758] (robot_control_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.701736] (robot_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.703210] (-) TimerEvent: {}
+[0.805055] (-) TimerEvent: {}
+[0.908135] (-) TimerEvent: {}
+[1.009386] (-) TimerEvent: {}
+[1.038199] (robot_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.056767] (robot_control_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.062384] (robot_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.064010] (robot_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.086530] (robot_control_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.109597] (-) TimerEvent: {}
+[1.210666] (-) TimerEvent: {}
+[1.311825] (-) TimerEvent: {}
+[1.412640] (-) TimerEvent: {}
+[1.513758] (-) TimerEvent: {}
+[1.614520] (-) TimerEvent: {}
+[1.715280] (-) TimerEvent: {}
+[1.741867] (robot_control_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter \n'}
+[1.816038] (-) TimerEvent: {}
+[1.917230] (-) TimerEvent: {}
+[2.018408] (-) TimerEvent: {}
+[2.119081] (-) TimerEvent: {}
+[2.152018] (robot_control_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.169904] (robot_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.185740] (robot_control_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.219342] (-) TimerEvent: {}
+[2.320090] (-) TimerEvent: {}
+[2.376161] (robot_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.420568] (-) TimerEvent: {}
+[2.521516] (-) TimerEvent: {}
+[2.622053] (-) TimerEvent: {}
+[2.722551] (-) TimerEvent: {}
+[2.823630] (-) TimerEvent: {}
+[2.924563] (-) TimerEvent: {}
+[3.031548] (-) TimerEvent: {}
+[3.132509] (-) TimerEvent: {}
+[3.233813] (-) TimerEvent: {}
+[3.334579] (-) TimerEvent: {}
+[3.435556] (-) TimerEvent: {}
+[3.536033] (-) TimerEvent: {}
+[3.636591] (-) TimerEvent: {}
+[3.737546] (-) TimerEvent: {}
+[3.792015] (robot_control_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.838065] (-) TimerEvent: {}
+[3.939028] (-) TimerEvent: {}
+[4.039635] (-) TimerEvent: {}
+[4.140561] (-) TimerEvent: {}
+[4.239025] (robot_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.240982] (-) TimerEvent: {}
+[4.341594] (-) TimerEvent: {}
+[4.442481] (-) TimerEvent: {}
+[4.543049] (-) TimerEvent: {}
+[4.629515] (robot_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.643577] (-) TimerEvent: {}
+[4.673577] (robot_control_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.4", minimum required is "3.6") \n'}
+[4.681053] (robot_control_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.724658] (robot_control_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.4", minimum required is "3.5") \n'}
+[4.725275] (robot_control_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.725418] (robot_control_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.725477] (robot_control_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.743989] (-) TimerEvent: {}
+[4.754655] (robot_control_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.820456] (robot_control_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.844473] (-) TimerEvent: {}
+[4.939922] (robot_control_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.943648] (robot_control_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.945026] (-) TimerEvent: {}
+[4.958771] (robot_control_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.034771] (robot_control_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[5.042371] (robot_control_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces\n'}
+[5.045742] (-) TimerEvent: {}
+[5.071946] (robot_control_interfaces) CommandEnded: {'returncode': 0}
+[5.075837] (robot_control_interfaces) JobProgress: {'identifier': 'robot_control_interfaces', 'progress': 'build'}
+[5.082439] (robot_control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces', 'env': OrderedDict([('HOSTNAME', '525dd0c721b0'), ('GIT_ASKPASS', '/root/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/rdpi/Documents/TieDan/d2ros2/chapt4'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-93bbac1e-fdef-4ae4-96dd-f07efbcbf593.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-1c18d0e240246833a57bbd1b7d65f9e9412d75fb.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/scripts/bin/'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-1c18d0e240246833a57bbd1b7d65f9e9412d75fb.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', 'unix:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-2d0278864f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-1c18d0e240246833a57bbd1b7d65f9e9412d75fb.sock'), ('AMENT_PREFIX_PATH', '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy:/opt/ros/humble')]), 'shell': False}
+[5.146068] (-) TimerEvent: {}
+[5.247422] (-) TimerEvent: {}
+[5.305572] (robot_control_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.344540] (robot_control_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.347826] (-) TimerEvent: {}
+[5.448571] (-) TimerEvent: {}
+[5.549879] (-) TimerEvent: {}
+[5.650623] (-) TimerEvent: {}
+[5.751558] (-) TimerEvent: {}
+[5.852494] (-) TimerEvent: {}
+[5.953470] (-) TimerEvent: {}
+[6.054001] (-) TimerEvent: {}
+[6.154966] (-) TimerEvent: {}
+[6.255722] (-) TimerEvent: {}
+[6.356526] (-) TimerEvent: {}
+[6.457458] (-) TimerEvent: {}
+[6.557965] (-) TimerEvent: {}
+[6.658450] (-) TimerEvent: {}
+[6.700319] (robot_control_interfaces) StdoutLine: {'line': b'[  6%] Built target robot_control_interfaces__cpp\n'}
+[6.759520] (-) TimerEvent: {}
+[6.825781] (robot_control_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_robot_control_interfaces\n'}
+[6.842645] (robot_control_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.860115] (-) TimerEvent: {}
+[6.961013] (-) TimerEvent: {}
+[7.061997] (-) TimerEvent: {}
+[7.084008] (robot_control_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_control_interfaces/action/detail/move_robot__functions.c.o\x1b[0m\n'}
+[7.162522] (-) TimerEvent: {}
+[7.263539] (-) TimerEvent: {}
+[7.364513] (-) TimerEvent: {}
+[7.465527] (-) TimerEvent: {}
+[7.566991] (-) TimerEvent: {}
+[7.578047] (robot_control_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library librobot_control_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[7.667672] (-) TimerEvent: {}
+[7.738521] (robot_control_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_control_interfaces/action/move_robot__type_support.cpp.o\x1b[0m\n'}
+[7.753419] (robot_control_interfaces) StdoutLine: {'line': b'[ 19%] Built target robot_control_interfaces__rosidl_generator_c\n'}
+[7.767941] (-) TimerEvent: {}
+[7.799215] (robot_control_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.868521] (-) TimerEvent: {}
+[7.969392] (-) TimerEvent: {}
+[8.070492] (-) TimerEvent: {}
+[8.173364] (-) TimerEvent: {}
+[8.274904] (-) TimerEvent: {}
+[8.376450] (-) TimerEvent: {}
+[8.477475] (-) TimerEvent: {}
+[8.578458] (-) TimerEvent: {}
+[8.679496] (-) TimerEvent: {}
+[8.731778] (robot_control_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_control_interfaces/action/detail/dds_fastrtps/move_robot__type_support.cpp.o\x1b[0m\n'}
+[8.779985] (-) TimerEvent: {}
+[8.881550] (-) TimerEvent: {}
+[8.983501] (-) TimerEvent: {}
+[9.086075] (-) TimerEvent: {}
+[9.114606] (robot_control_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.186418] (-) TimerEvent: {}
+[9.211180] (robot_control_interfaces) StdoutLine: {'line': b'[ 29%] Built target robot_control_interfaces__rosidl_typesupport_cpp\n'}
+[9.234372] (robot_control_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[9.286888] (-) TimerEvent: {}
+[9.388484] (-) TimerEvent: {}
+[9.491022] (-) TimerEvent: {}
+[9.592885] (-) TimerEvent: {}
+[9.694445] (-) TimerEvent: {}
+[9.795894] (-) TimerEvent: {}
+[9.897925] (-) TimerEvent: {}
+[9.999476] (-) TimerEvent: {}
+[10.101373] (-) TimerEvent: {}
+[10.202881] (-) TimerEvent: {}
+[10.225651] (robot_control_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.308885] (-) TimerEvent: {}
+[10.413346] (-) TimerEvent: {}
+[10.500723] (robot_control_interfaces) StdoutLine: {'line': b'[ 35%] Built target robot_control_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[10.513972] (-) TimerEvent: {}
+[10.614865] (robot_control_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_control_interfaces/action/detail/move_robot__type_support.cpp.o\x1b[0m\n'}
+[10.615054] (-) TimerEvent: {}
+[10.716915] (-) TimerEvent: {}
+[10.819321] (-) TimerEvent: {}
+[10.920915] (-) TimerEvent: {}
+[11.023480] (-) TimerEvent: {}
+[11.124902] (-) TimerEvent: {}
+[11.227027] (-) TimerEvent: {}
+[11.247793] (robot_control_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[11.253865] (robot_control_interfaces) StdoutLine: {'line': b'creating robot_control_interfaces.egg-info\n'}
+[11.255047] (robot_control_interfaces) StdoutLine: {'line': b'writing robot_control_interfaces.egg-info/PKG-INFO\n'}
+[11.262793] (robot_control_interfaces) StdoutLine: {'line': b'writing dependency_links to robot_control_interfaces.egg-info/dependency_links.txt\n'}
+[11.264327] (robot_control_interfaces) StdoutLine: {'line': b'writing top-level names to robot_control_interfaces.egg-info/top_level.txt\n'}
+[11.265082] (robot_control_interfaces) StdoutLine: {'line': b"writing manifest file 'robot_control_interfaces.egg-info/SOURCES.txt'\n"}
+[11.284453] (robot_control_interfaces) StdoutLine: {'line': b"reading manifest file 'robot_control_interfaces.egg-info/SOURCES.txt'\n"}
+[11.286318] (robot_control_interfaces) StdoutLine: {'line': b"writing manifest file 'robot_control_interfaces.egg-info/SOURCES.txt'\n"}
+[11.327659] (-) TimerEvent: {}
+[11.429371] (-) TimerEvent: {}
+[11.499978] (robot_control_interfaces) StdoutLine: {'line': b'[ 38%] Built target ament_cmake_python_build_robot_control_interfaces_egg\n'}
+[11.529958] (-) TimerEvent: {}
+[11.567624] (robot_control_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.630336] (-) TimerEvent: {}
+[11.734304] (-) TimerEvent: {}
+[11.835873] (-) TimerEvent: {}
+[11.937895] (-) TimerEvent: {}
+[12.039393] (-) TimerEvent: {}
+[12.141330] (-) TimerEvent: {}
+[12.242929] (-) TimerEvent: {}
+[12.345333] (-) TimerEvent: {}
+[12.356045] (robot_control_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[12.445976] (-) TimerEvent: {}
+[12.554490] (-) TimerEvent: {}
+[12.596387] (robot_control_interfaces) StdoutLine: {'line': b'[ 45%] Built target robot_control_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[12.612102] (robot_control_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[12.626995] (robot_control_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_control_interfaces/action/detail/move_robot__type_support_c.cpp.o\x1b[0m\n'}
+[12.654902] (-) TimerEvent: {}
+[12.757303] (-) TimerEvent: {}
+[12.858850] (-) TimerEvent: {}
+[12.960416] (-) TimerEvent: {}
+[13.061844] (-) TimerEvent: {}
+[13.163604] (-) TimerEvent: {}
+[13.265443] (-) TimerEvent: {}
+[13.352514] (robot_control_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_control_interfaces/action/detail/move_robot__type_support.c.o\x1b[0m\n'}
+[13.365871] (-) TimerEvent: {}
+[13.468481] (-) TimerEvent: {}
+[13.470628] (robot_control_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.482407] (robot_control_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library librobot_control_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.551848] (robot_control_interfaces) StdoutLine: {'line': b'[ 61%] Built target robot_control_interfaces__rosidl_typesupport_introspection_c\n'}
+[13.568806] (-) TimerEvent: {}
+[13.570395] (robot_control_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.669841] (-) TimerEvent: {}
+[13.742175] (robot_control_interfaces) StdoutLine: {'line': b'[ 64%] Built target robot_control_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[13.770366] (-) TimerEvent: {}
+[13.872272] (-) TimerEvent: {}
+[13.973809] (-) TimerEvent: {}
+[14.075328] (-) TimerEvent: {}
+[14.176907] (-) TimerEvent: {}
+[14.279354] (-) TimerEvent: {}
+[14.281997] (robot_control_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_control_interfaces/action/move_robot__type_support.cpp.o\x1b[0m\n'}
+[14.379816] (-) TimerEvent: {}
+[14.430408] (robot_control_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[14.480277] (-) TimerEvent: {}
+[14.580349] (robot_control_interfaces) StdoutLine: {'line': b'[ 70%] Built target robot_control_interfaces__rosidl_typesupport_c\n'}
+[14.580719] (-) TimerEvent: {}
+[14.679810] (robot_control_interfaces) StdoutLine: {'line': b'[ 70%] Built target robot_control_interfaces\n'}
+[14.681366] (-) TimerEvent: {}
+[14.741802] (robot_control_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[14.781900] (-) TimerEvent: {}
+[14.884793] (-) TimerEvent: {}
+[14.988169] (-) TimerEvent: {}
+[15.091321] (-) TimerEvent: {}
+[15.191786] (-) TimerEvent: {}
+[15.292257] (-) TimerEvent: {}
+[15.392884] (-) TimerEvent: {}
+[15.493734] (-) TimerEvent: {}
+[15.594321] (-) TimerEvent: {}
+[15.695656] (-) TimerEvent: {}
+[15.797972] (-) TimerEvent: {}
+[15.898724] (-) TimerEvent: {}
+[15.921335] (robot_control_interfaces) StdoutLine: {'line': b'[ 74%] Built target robot_control_interfaces__py\n'}
+[15.959819] (robot_control_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_control_interfaces/action/_move_robot_s.c.o\x1b[0m\n'}
+[15.999332] (-) TimerEvent: {}
+[16.100705] (-) TimerEvent: {}
+[16.202259] (-) TimerEvent: {}
+[16.264693] (robot_control_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_control_interfaces/librobot_control_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[16.302830] (-) TimerEvent: {}
+[16.331111] (robot_control_interfaces) StdoutLine: {'line': b'[ 80%] Built target robot_control_interfaces__rosidl_generator_py\n'}
+[16.371012] (robot_control_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[16.374252] (robot_control_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[16.403597] (-) TimerEvent: {}
+[16.507004] (-) TimerEvent: {}
+[16.607728] (-) TimerEvent: {}
+[16.682662] (robot_control_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.708240] (-) TimerEvent: {}
+[16.750634] (robot_control_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.791445] (robot_control_interfaces) StdoutLine: {'line': b'[ 93%] Built target robot_control_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[16.808722] (-) TimerEvent: {}
+[16.881753] (robot_control_interfaces) StdoutLine: {'line': b'[ 93%] Built target robot_control_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.894288] (robot_control_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[16.909422] (-) TimerEvent: {}
+[17.010326] (-) TimerEvent: {}
+[17.111769] (-) TimerEvent: {}
+[17.193733] (robot_control_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.212313] (-) TimerEvent: {}
+[17.313509] (-) TimerEvent: {}
+[17.356775] (robot_control_interfaces) StdoutLine: {'line': b'[100%] Built target robot_control_interfaces__rosidl_typesupport_c__pyext\n'}
+[17.395369] (robot_control_interfaces) CommandEnded: {'returncode': 0}
+[17.413763] (-) TimerEvent: {}
+[17.514793] (-) TimerEvent: {}
+[17.607825] (robot_control_interfaces) JobProgress: {'identifier': 'robot_control_interfaces', 'progress': 'install'}
+[17.615286] (-) TimerEvent: {}
+[17.621052] (robot_control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces'], 'cwd': '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces', 'env': OrderedDict([('HOSTNAME', '525dd0c721b0'), ('GIT_ASKPASS', '/root/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/rdpi/Documents/TieDan/d2ros2/chapt4'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-93bbac1e-fdef-4ae4-96dd-f07efbcbf593.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-1c18d0e240246833a57bbd1b7d65f9e9412d75fb.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/scripts/bin/'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-1c18d0e240246833a57bbd1b7d65f9e9412d75fb.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', 'unix:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-2d0278864f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-1c18d0e240246833a57bbd1b7d65f9e9412d75fb.sock'), ('AMENT_PREFIX_PATH', '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/build/robot_control_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy:/opt/ros/humble')]), 'shell': False}
+[17.651131] (robot_control_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.652812] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_control_interfaces\n'}
+[17.654008] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces\n'}
+[17.655258] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg\n'}
+[17.656949] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[17.658128] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action\n'}
+[17.658782] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/move_robot.h\n'}
+[17.664461] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail\n'}
+[17.664748] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__type_support.h\n'}
+[17.664830] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__functions.h\n'}
+[17.664911] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__struct.h\n'}
+[17.664964] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__functions.c\n'}
+[17.665014] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/library_path.sh\n'}
+[17.666787] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/library_path.dsv\n'}
+[17.668105] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_generator_c.so\n'}
+[17.670255] (robot_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_generator_c.so" to ""\n'}
+[17.670459] (robot_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces\n'}
+[17.671380] (robot_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg\n'}
+[17.671578] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[17.672473] (robot_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action\n'}
+[17.672677] (robot_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail\n'}
+[17.673146] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__rosidl_typesupport_fastrtps_c.h\n'}
+[17.674213] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[17.676223] (robot_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[17.676475] (robot_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces\n'}
+[17.677177] (robot_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg\n'}
+[17.677383] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[17.678357] (robot_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action\n'}
+[17.678598] (robot_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail\n'}
+[17.679017] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__type_support.c\n'}
+[17.680602] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__rosidl_typesupport_introspection_c.h\n'}
+[17.681566] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[17.683408] (robot_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.683635] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_c.so\n'}
+[17.685178] (robot_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[17.685348] (robot_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces\n'}
+[17.685954] (robot_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action\n'}
+[17.686132] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/move_robot.hpp\n'}
+[17.687050] (robot_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail\n'}
+[17.687386] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__builder.hpp\n'}
+[17.688506] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__traits.hpp\n'}
+[17.689832] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__struct.hpp\n'}
+[17.691292] (robot_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces\n'}
+[17.691475] (robot_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg\n'}
+[17.691978] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[17.692910] (robot_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action\n'}
+[17.693089] (robot_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail\n'}
+[17.693474] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/dds_fastrtps\n'}
+[17.693987] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.694997] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[17.696895] (robot_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[17.697239] (robot_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces\n'}
+[17.697748] (robot_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action\n'}
+[17.698233] (robot_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail\n'}
+[17.698763] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.699826] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__type_support.cpp\n'}
+[17.701811] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[17.703165] (robot_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[17.703322] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_cpp.so\n'}
+[17.704896] (robot_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[17.705120] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/pythonpath.sh\n'}
+[17.706088] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/pythonpath.dsv\n'}
+[17.707362] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info\n'}
+[17.711682] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[17.712981] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[17.713828] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[17.714723] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[17.715683] (-) TimerEvent: {}
+[17.716375] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces\n'}
+[17.717502] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/librobot_control_interfaces__rosidl_generator_py.so\n'}
+[17.718485] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[17.721712] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[17.722605] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.730068] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.730400] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/__init__.py\n'}
+[17.730458] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.732585] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action\n'}
+[17.732896] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action/_move_robot_s.c\n'}
+[17.732948] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action/__init__.py\n'}
+[17.736415] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action/_move_robot.py\n'}
+[17.737889] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[17.816242] (-) TimerEvent: {}
+[17.894892] (robot_control_interfaces) StdoutLine: {'line': b"Listing '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces'...\n"}
+[17.895147] (robot_control_interfaces) StdoutLine: {'line': b"Compiling '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/__init__.py'...\n"}
+[17.895221] (robot_control_interfaces) StdoutLine: {'line': b"Listing '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action'...\n"}
+[17.895273] (robot_control_interfaces) StdoutLine: {'line': b"Compiling '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action/__init__.py'...\n"}
+[17.895323] (robot_control_interfaces) StdoutLine: {'line': b"Compiling '/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action/_move_robot.py'...\n"}
+[17.912454] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.912900] (robot_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.912963] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.917243] (robot_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.917770] (-) TimerEvent: {}
+[17.919361] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.920237] (robot_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.925244] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_generator_py.so\n'}
+[17.927381] (robot_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_generator_py.so" to ""\n'}
+[17.928180] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/action/MoveRobot.idl\n'}
+[17.929349] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/action/MoveRobot.action\n'}
+[17.934182] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_control_interfaces\n'}
+[17.935231] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_control_interfaces\n'}
+[17.936071] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/ament_prefix_path.sh\n'}
+[17.936816] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/ament_prefix_path.dsv\n'}
+[17.937640] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/path.sh\n'}
+[17.938659] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/path.dsv\n'}
+[17.939560] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/local_setup.bash\n'}
+[17.940475] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/local_setup.sh\n'}
+[17.941715] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/local_setup.zsh\n'}
+[17.942495] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/local_setup.dsv\n'}
+[17.943206] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/package.dsv\n'}
+[17.944121] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/ament_index/resource_index/packages/robot_control_interfaces\n'}
+[17.944935] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_cExport.cmake\n'}
+[17.945677] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[17.946835] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[17.950726] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[17.951893] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[17.953033] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[17.954081] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[17.955376] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[17.956261] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_cppExport.cmake\n'}
+[17.960083] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[17.967347] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[17.970562] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[17.972661] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[17.973871] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[17.976594] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[17.978011] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_pyExport.cmake\n'}
+[17.979760] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[17.981539] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[17.982810] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.983925] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.985069] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.986660] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.988461] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.990247] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.991908] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfacesConfig.cmake\n'}
+[17.993155] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfacesConfig-version.cmake\n'}
+[17.994196] (robot_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/robot_control_interfaces/share/robot_control_interfaces/package.xml\n'}
+[17.999376] (robot_control_interfaces) CommandEnded: {'returncode': 0}
+[18.018292] (-) TimerEvent: {}
+[18.119428] (-) TimerEvent: {}
+[18.220314] (-) TimerEvent: {}
+[18.321958] (-) TimerEvent: {}
+[18.354820] (robot_control_interfaces) JobEnded: {'identifier': 'robot_control_interfaces', 'rc': 0}
+[18.359226] (-) EventReactorShutdown: {}

@@ -1,0 +1,46 @@
+[0.025s] Invoking command in '/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/build/robot_startup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/install/robot_startup:/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy:/opt/ros/humble /usr/bin/cmake /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/src/robot_startup -DCMAKE_INSTALL_PREFIX=/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup
+[0.423s] -- The C compiler identification is GNU 11.2.0
+[0.824s] -- The CXX compiler identification is GNU 11.2.0
+[0.874s] -- Detecting C compiler ABI info
+[1.100s] -- Detecting C compiler ABI info - done
+[1.112s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.112s] -- Detecting C compile features
+[1.114s] -- Detecting C compile features - done
+[1.123s] -- Detecting CXX compiler ABI info
+[1.305s] -- Detecting CXX compiler ABI info - done
+[1.319s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.319s] -- Detecting CXX compile features
+[1.319s] -- Detecting CXX compile features - done
+[1.363s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.756s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter 
+[2.082s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.269s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.272s] -- Added test 'lint_cmake' to check CMake code style
+[2.274s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.277s] -- Added test 'xmllint' to check XML markup files
+[2.284s] -- Configuring done
+[2.295s] -- Generating done
+[2.299s] -- Build files have been written to: /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/build/robot_startup
+[2.311s] Invoked command in '/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/build/robot_startup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/install/robot_startup:/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy:/opt/ros/humble /usr/bin/cmake /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/src/robot_startup -DCMAKE_INSTALL_PREFIX=/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup
+[2.312s] Invoking command in '/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/build/robot_startup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/install/robot_startup:/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy:/opt/ros/humble /usr/bin/cmake --build /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/build/robot_startup -- -j2 -l2
+[2.415s] Invoked command in '/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/build/robot_startup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/install/robot_startup:/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy:/opt/ros/humble /usr/bin/cmake --build /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/build/robot_startup -- -j2 -l2
+[2.525s] Invoking command in '/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/build/robot_startup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/install/robot_startup:/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy:/opt/ros/humble /usr/bin/cmake --install /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/build/robot_startup
+[2.558s] -- Install configuration: ""
+[2.558s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/launch
+[2.559s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/launch/example_action.launch.py
+[2.564s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/ament_index/resource_index/package_run_dependencies/robot_startup
+[2.565s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/ament_index/resource_index/parent_prefix_path/robot_startup
+[2.566s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/environment/ament_prefix_path.sh
+[2.567s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/environment/ament_prefix_path.dsv
+[2.568s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/environment/path.sh
+[2.572s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/environment/path.dsv
+[2.573s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/local_setup.bash
+[2.573s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/local_setup.sh
+[2.574s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/local_setup.zsh
+[2.576s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/local_setup.dsv
+[2.577s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/package.dsv
+[2.581s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/ament_index/resource_index/packages/robot_startup
+[2.582s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/cmake/robot_startupConfig.cmake
+[2.582s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/cmake/robot_startupConfig-version.cmake
+[2.583s] -- Installing: /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/package.xml
+[2.592s] Invoked command in '/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/build/robot_startup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/install/robot_startup:/home/rdpi/Documents/TieDan/d2ros2/chapt4/chapt4_ws/install/example_action_rclpy:/opt/ros/humble /usr/bin/cmake --install /home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/build/robot_startup

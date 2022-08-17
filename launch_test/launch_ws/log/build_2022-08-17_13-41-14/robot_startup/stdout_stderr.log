@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/robot_startup/robot_startup.egg-info
+writing ../../build/robot_startup/robot_startup.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_startup/robot_startup.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_startup/robot_startup.egg-info/entry_points.txt
+writing requirements to ../../build/robot_startup/robot_startup.egg-info/requires.txt
+writing top-level names to ../../build/robot_startup/robot_startup.egg-info/top_level.txt
+writing manifest file '../../build/robot_startup/robot_startup.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_startup/robot_startup.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_startup/robot_startup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/build/robot_startup/build
+creating /home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/build/robot_startup/build/lib
+creating /home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/build/robot_startup/build/lib/robot_startup
+copying robot_startup/__init__.py -> /home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/build/robot_startup/build/lib/robot_startup
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/install/robot_startup/lib/python3.10/site-packages/robot_startup
+copying /home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/build/robot_startup/build/lib/robot_startup/__init__.py -> /home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/install/robot_startup/lib/python3.10/site-packages/robot_startup
+byte-compiling /home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/install/robot_startup/lib/python3.10/site-packages/robot_startup/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/install/robot_startup/share/ament_index
+creating /home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/install/robot_startup/share/ament_index/resource_index
+creating /home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/install/robot_startup/share/ament_index/resource_index/packages
+copying resource/robot_startup -> /home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/install/robot_startup/share/ament_index/resource_index/packages
+copying package.xml -> /home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/install/robot_startup/share/robot_startup
+creating /home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/install/robot_startup/share/robot_startup/launch
+copying launch/example_action.launch.py -> /home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/install/robot_startup/share/robot_startup/launch
+running install_egg_info
+Copying ../../build/robot_startup/robot_startup.egg-info to /home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/install/robot_startup/lib/python3.10/site-packages/robot_startup-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/rdpi/Documents/TieDan/d2ros2/launch_test/launch_ws/build/robot_startup/install.log'

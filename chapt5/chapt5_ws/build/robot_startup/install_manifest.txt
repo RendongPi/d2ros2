@@ -1,0 +1,16 @@
+/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/launch/example_action.launch.py
+/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/ament_index/resource_index/package_run_dependencies/robot_startup
+/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/ament_index/resource_index/parent_prefix_path/robot_startup
+/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/environment/ament_prefix_path.sh
+/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/environment/ament_prefix_path.dsv
+/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/environment/path.sh
+/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/environment/path.dsv
+/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/local_setup.bash
+/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/local_setup.sh
+/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/local_setup.zsh
+/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/local_setup.dsv
+/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/package.dsv
+/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/ament_index/resource_index/packages/robot_startup
+/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/cmake/robot_startupConfig.cmake
+/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/cmake/robot_startupConfig-version.cmake
+/home/rdpi/Documents/TieDan/d2ros2/chapt5/chapt5_ws/install/robot_startup/share/robot_startup/package.xml
